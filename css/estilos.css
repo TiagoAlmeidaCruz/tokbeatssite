@@ -1,0 +1,160 @@
+/*Palheta de Cores: https://www.w3.org/TR/css3-color/#svg-color
+<!-- https://www.w3.org/TR/CSS21/fonts.html#generic-font-families --> 
+*/
+
+html body div span applet object iframe h1 h2 h3 h4 h5 h6 p blockquote,
+pre a abbr acronym address big cite code del dfn em img ins kbd q s samp small strike strong sub sup tt var b u i center dl dt dd ol ul li fieldset form label legend,
+table caption tbody tfoot thead tr th td article aside canvas details embed figure figcaption footer header hgroup menu nav output ruby section summary time mark audio video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article aside details figcaption figure footer header hgroup menu nav section {
+    display: block;
+}
+
+@font-face {
+    font-family: Transformers;
+    src: url(../fonts/Transformers.ttf);
+}
+
+body {
+    background-image: url(../img/background.jpg);
+    background-attachment: fixed;
+    font-family: Transformers;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 1280px;*/
+    width: auto;
+    line-height: 1;
+}
+
+p {
+    color: black;
+    margin: 0px;
+}
+
+a {
+    padding: 0px;
+    align-content: center;
+}
+
+blockquote q {
+    quotes: none;
+}
+
+blockquote:before blockquote:after q:before q:after {
+    content: '';
+    content: none;
+}
+
+iframe {
+    width: 447px;
+    height: 352px;
+    allow: autoplay encrypted-media;
+    frameborder: 0;
+}
+
+a.logosub:link {
+    text-decoration: none;
+}
+
+.table-photo-galeri table {
+    align: center;
+    width: 230px;
+    height: 332px;
+}
+
+.img-logo img {
+    width: 512px;
+    height: 512px;
+    margin: 5px;
+    padding: 0px;
+    margin-left: 30%;
+}
+
+.img-galeri img {
+    width: 448px;
+    height: 320px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.info-dev p {
+    text-align: right;
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.dev-tok p {
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 3px;
+    padding: 5px;
+    border: solid grey;
+    background-image: url(../img/imggame1.jpg)
+}
+
+figcaption {
+    border: 2px solid grey;
+    text-align: center;
+    background-color: black;
+    margin: 2px;
+}
+
+table {
+    margin: 5px;
+    padding: 0px;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th {
+    font-size: 40px;
+    background-color: gray;
+    text-align: center;
+    margin: 0px;
+}
+
+td {
+    margin: 0px;
+}
+
+ol,
+ul {
+    padding: 5px 0px 5px 655px;
+    color: blue;
+    list-style: none;
+}
+
+h1 {
+    background-color: grey;
+    text-align: center;
+    font-size: 40px;
+    padding: 2px;
+    margin: 0px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 45px;
+    background-color: grey;
+    padding: 0px;
+    margin: 0px;
+}
+
+h3 {
+    font-size: 40px;
+    text-align: center;
+    background-color: black;
+    margin: 10px;
+}
